@@ -121,9 +121,10 @@ def generate_seat_sequence(sorting_style):
 
 	return seat_seq
 
-algo = 'random'
-algo = 'rev_alternating_rows'
 algo = 'None'
+algo = 'window_first'
+algo = 'random'
+
 seat_seq = generate_seat_sequence(algo)
 # a record list to keep track of the time spent finding a seat
 record = []
